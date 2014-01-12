@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/set_normal_view" android:orderInCategory="0" android:icon="@drawable/menu4" android:title="@string/menu_calendar_view_setting" />
+    <item android:id="@+id/set_day_of_week_view" android:orderInCategory="1" android:title="@string/menu_calendar_day_of_week" android:icon="@drawable/menu4" />
+    <item android:id="@+id/add_content" android:title="@string/menu_add_content" android:orderInCategory="2"></item>
+</menu>
