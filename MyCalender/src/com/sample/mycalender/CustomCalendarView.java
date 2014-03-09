@@ -7,7 +7,10 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+import com.word.generate.TestActivity;
+
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -207,7 +210,6 @@ public class CustomCalendarView extends View {
 	 */
 	@Override
 	public void onDraw(Canvas canvas) {
-		// TODO 自動生成されたメソッド・スタブ
 		super.onDraw(canvas);
 
 		//	キャンバスのサイズを設定
@@ -437,6 +439,9 @@ public class CustomCalendarView extends View {
 			//this.select();
 		}
 		
+		//TODO
+		Intent intent = new Intent(context, TestActivity.class);
+		context.startActivity(intent);
 		Toast.makeText(context, colCount + " " + rowCount, Toast.LENGTH_SHORT).show();
 	}
 

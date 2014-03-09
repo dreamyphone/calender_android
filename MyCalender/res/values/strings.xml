@@ -10,5 +10,10 @@
     <string name="menu_calendar_normal_view">通常表示</string>
     <string name="menu_calendar_day_of_week">曜日基準表示</string>
     <string name="menu_add_content">追加</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_youdao">有道词典</string>
+    <string name="bt_hjdict">沪江小D</string>
+    <string name="bt_hjword">开心词场</string>
 
 </resources>

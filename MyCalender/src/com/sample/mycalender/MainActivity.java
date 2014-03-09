@@ -33,7 +33,6 @@ public class MainActivity extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		super.onCreateOptionsMenu(menu);
 		// Inflate the menu; this adds items to the action bar if it is present.
-		//getMenuInflater().inflate(R.menu.activity_main, menu);
 		getMenuInflater().inflate(R.menu.calendar_menu, menu);
 
 		return true;
@@ -69,7 +68,7 @@ public class MainActivity extends Activity {
 	public void dateChanged() {
 		CustomCalendarView customCalendar = (CustomCalendarView)findViewById(R.id.customCalendarView1);
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy/MM", Locale.JAPAN);
-		Calendar calendar = new GregorianCalendar(customCalendar.getYear() - 1900,
+		Calendar calendar = new GregorianCalendar(customCalendar.getYear(),
 				customCalendar.getMonth() - 1,
 				customCalendar.getDay());
 		String dateString = simpleDateFormat.format(calendar.getTime());
